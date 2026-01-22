@@ -1,0 +1,5 @@
+[2026-01-23 00:08:17] [INFO] Command Received: market
+[2026-01-23 00:08:17] [INFO] Placing Market Order: BUY 0.001 BTCUSDT
+[2026-01-23 00:08:17] [INFO] Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1769107097495, 'signature': 'e0c6fbf7c6ba044b5239f63d6bd3a71ec6461aff2363e6d48cf568e9cb6710b5'}
+[2026-01-23 00:08:17] [ERROR] HTTP Error: {"code":-2014,"msg":"API-key format invalid."}
+[2026-01-23 00:08:17] [ERROR] Failed to place market order: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&timestamp=1769107097495&signature=e0c6fbf7c6ba044b5239f63d6bd3a71ec6461aff2363e6d48cf568e9cb6710b5
